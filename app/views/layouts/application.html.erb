@@ -2,6 +2,9 @@
 <html>
   <head>
     <title>RailsStupidCoaching</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Space+Mono&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -10,10 +13,9 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-  <div style="background: lightgray; padding: 18px; margin: 8px;">Welcome to stupid coach!</div>
-  <div style="padding: 18px; margin: 8px;">
+  <body style="font-family: 'Lato', sans-serif;">
+  <div style="background: lightgray; padding: 16px; margin: 8px;">Welcome to stupid coach!</div>
+  <br>
     <%= yield %>
-  </div>
   </body>
 </html>
